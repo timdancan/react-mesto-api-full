@@ -1,0 +1,9 @@
+.header__box_visiable {
+  display: flex;
+}
+
+@media screen and (max-width: 450px) {
+  .header__box_visiable {
+    display: none;
+  }
+}

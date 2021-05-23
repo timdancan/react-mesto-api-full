@@ -1,0 +1,15 @@
+.element__button {
+  border: none;
+  height: 18px;
+  width: 20px;
+  background-image: url(../../../images/heart.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.element__button:focus {
+  outline: 2px solid cornflowerblue;
+}

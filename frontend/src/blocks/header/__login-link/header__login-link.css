@@ -1,0 +1,10 @@
+.header__login-link {
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

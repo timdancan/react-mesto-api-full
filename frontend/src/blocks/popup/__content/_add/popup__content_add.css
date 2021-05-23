@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+  .popup__content_add {
+    padding: 30px 20px;
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .popup__content_add {
+    width: 200px;
+  }
+}
