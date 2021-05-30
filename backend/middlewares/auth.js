@@ -3,9 +3,13 @@ const AuthError = require("../errors/auth-error");
 
 const { JWT_SECRET_KEY = 'secret_key' } = process.env;
 
+const extractBearerToken = function (header) {
+  return header.replace('Bearer ', '');
+};
+
 module.exports = (req, res, next) => {
   const token = req.headers.authorization;
-  if (!token) {
+  if (!token || !token.startsWith('Bearer ')) {
     throw new AuthError("необходма авторизация");
   }
 
